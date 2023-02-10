@@ -1,0 +1,24 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"vo_prefix"
+			{
+				"linux"		"15120"
+                "windows"	"15100"
+			}
+		}
+
+		"Signatures"
+		{
+			"CUtlString::Set"
+			{
+				"library"	"server"
+				"linux"		"\x55\x31\xC0\x89\xE5\x53\x83\xEC\x04\x8B\x5D\x0C"
+                "windows"   "\x55\x8B\xEC\x53\x56\x33\xDB\x8B\xF1"
+			}
+		}
+	}
+}
